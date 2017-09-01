@@ -1,0 +1,73 @@
+@font-face {
+font-family: 'SourceSansPro-Bold';
+src: url('../font/BlackJack/black_jack.woff2');
+}
+
+@font-face {
+  font-family: 'blackJackRegular';
+  src:  url('../font/BlackJack/black_jack.woff2') format('woff2'),
+        url('../font/BlackJack/BlackJackRegular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'gothammedium';
+  src:  url('../font/GothamMedium/GothamMediumRegular.woff2') format('woff2'),
+        url('../font/GothamMedium/GothamMedium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'myriadproregular';
+  src:  url('../font/MyriadProRegular/MyriadProRegular.woff2') format('woff2'),
+        url('../font/MyriadProRegular/MyriadPro-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'pacifico';
+  src:  url('../font/Pacifico/Pacifico-Regular.woff') format('woff'),
+        url('../font/Pacifico/Pacifico.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'quicksandbold';
+  src:  url('../font/Quicksand/Quicksand-Bold.woff') format('woff'),
+        url('../font/Quicksand/Quicksand-Bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'quicksandbolditalic';
+  src:  url('../font/Quicksand/Quicksand-BoldItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'quicksanditalic';
+  src:  url('../font/Quicksand/Quicksand-Italic.woff') format('woff'),
+        url('../font/Quicksand/Quicksand-Italic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'quicksandlight';
+  src:  url('../font/Quicksand/Quicksand-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'quicksanditalic';
+  src:  url('../font/Quicksand/Quicksand-Italic.woff') format('woff'),
+        url('../font/Quicksand/Quicksand-Italic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'quicksandlightitalic';
+  src:  url('../font/Quicksand/Quicksand-LightItalic.woff') format('woff'),
+        url('../font/Quicksand/Quicksand-LightItalic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'quicksandregular';
+  src:  url('../font/Quicksand/Quicksand-Regular.woff') format('woff'),
+        url('../font/Quicksand/Quicksand-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'quicksanddashregular';
+  src:  url('../font/Quicksand/QuicksandDash-Regular.woff') format('woff');
+}
