@@ -13,8 +13,8 @@ export class LayoutComponent implements OnInit {
   ngOnInit() {
   }
 
-  NavPages() {
-    this.router.navigate(['/gallery']);
+  NavPages(urlName: any) {
+    this.router.navigate([urlName]);
   }
 
 }

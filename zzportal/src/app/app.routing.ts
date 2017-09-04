@@ -24,6 +24,14 @@ export const routes: Routes = [
       {
         path: 'gallery',
         loadChildren: './gallery/gallery.module#GalleryModule'
+      },
+      {
+        path: 'supplier-list',
+        loadChildren: './supplierlist/supplierlist.module#SupplierListModule'
+      },
+      {
+        path: 'supplier-details',
+        loadChildren: './supplierlist/supplierlist.module#SupplierDetailModule'
       }
     ]
   }

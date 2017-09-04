@@ -1082,16 +1082,20 @@ body {
         padding-top: 8px;
         padding-bottom: 8px;
         &.gift-reg-link {
+          i {
+            margin-right: 10px;
+            font-size: 14px;
+          }
+          &:hover, &:active, &:focus {
           color: #FF0471 !important;
-          font-size: 12px;
+          font-size: 14px;
           border: 1px solid #96A6A7 !important;
           background-color: white;
           border-radius: 35px;
           i {
-            color: #FF0471;
-            margin-right: 10px;
-            font-size: 14px;
+            color: #FF0471;           
           }
+        }
         }
       }
     }

@@ -1,0 +1,77 @@
+
+/* Photo */
+
+.Wedding-Photos {
+    background: #fff;
+    text-align: center;
+}
+
+.Wedding-Photos .title {
+    padding-top: 25px;
+    font-family: quicksandregular;
+    font-size: 40px;
+    color: #000;
+    margin-bottom: 37px;
+}
+
+.Wedding-Photos .image-block {
+    padding: 12px;
+    background: #f7f7f7;
+    border: 1px solid #000;
+    position: relative;
+}
+
+.Wedding-Photos .image-name {
+    padding-top: 10px;
+    font-family: quicksandregular;
+    font-size: 15px;
+    color: #777777;
+    box-shadow: 2px 1px 4px 0px rgba(0,0,0,0.3);
+    margin: 10px 0px;
+    padding: 10px 3px;
+}
+
+.Wedding-Photos .image-name:hover {
+    box-shadow: 1px 2px 4px 0px rgba(0,0,0,0.3);
+}
+
+.Wedding-Photos .image-block .btn-block {
+    display: none;
+    background: rgba(255,255,255,0.7);
+    position: absolute;
+    bottom: 12px;
+    left: 0;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.Wedding-Photos .btn-save {
+    font-family: gothammedium;
+    font-size: 18px;
+    background: #FF0471;
+    color: #fff;
+    margin: 0 auto;
+    border: none;  
+    border-radius: 5px;
+    padding: 5px 12px;  
+}
+
+.Wedding-Photos .image-block:hover .btn-block {
+    display: block;
+}
+
+@media (max-width:1024px) {
+    .Wedding-Photos .image-block .btn-block {
+        display: block;
+    }
+
+    .mobile-main-nav {
+        min-height: 0px;
+        margin: 0;
+    }
+
+    .Wedding-Photos .title {
+        padding-top: 0px;
+    }
+
+}
